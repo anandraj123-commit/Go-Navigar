@@ -1,0 +1,43 @@
+/* Header */
+.main-header {
+    height: 70px;
+    width: calc(100% - 260px);
+    background: #191c24;
+    margin-left: 260px;
+    display: flex;
+    align-items: center;
+    padding: 0 25px;
+    border-bottom: 1px solid #222;
+    justify-content: space-between;
+  
+  
+  .search-box input {
+    background: #1b2336;
+    border: none;
+    padding: 10px 15px;
+    width: 330px;
+    color: #fff;
+    border-radius: 6px;
+  }
+  
+  .header-right {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+  }
+  
+  .header-right i,
+  .header-right img {
+    cursor: pointer;
+  }
+  
+  .header-right img {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+  }
+
+  i {
+    color:white;
+  }
+}
